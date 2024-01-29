@@ -1,0 +1,26 @@
+div {
+    text-align: center;
+    background-color: rgba(234, 234, 234, 0.539);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 0%; 
+    margin: 35px auto; 
+    width: 40%; 
+    height: 62%; 
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('weather.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
