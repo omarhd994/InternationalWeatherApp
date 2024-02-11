@@ -1,6 +1,6 @@
 function obtenerTiempo() {
     const ciudad = document.getElementById("ciudad").value;
-    const apiKey = "7383e08cd2acc3b3eef4aa1394fc6ca7"; // Reemplaza con tu clave de API de OpenWeatherMap
+    const apiKey = "apiKeyValue"; // Reemplaza con tu clave de API de OpenWeatherMap
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`;
 
     fetch(apiUrl)
@@ -48,10 +48,5 @@ function mostrarResultado(data) {
                                 
     }           
 }
-
-
-
-
-
 
 document.getElementById("botonObtenerTiempo").addEventListener("click", obtenerTiempo);
