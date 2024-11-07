@@ -1,6 +1,5 @@
 function obtenerTiempo() {
     const ciudad = document.getElementById("ciudad").value;
-    const apiKey = "apiKeyValue"; // Reemplaza con tu clave de API de OpenWeatherMap
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`;
 
     fetch(apiUrl)
